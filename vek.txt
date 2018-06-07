@@ -1,0 +1,50 @@
+{
+    "createdBy": "Redirector v3.1.1",
+    "createdAt": "2018-06-07T02:13:55.776Z",
+    "redirects": [
+        {
+            "description": "wiki",
+            "exampleUrl": "https://en.wikipedia.org/wiki/linux",
+            "exampleResult": "https://en.vikiansiklopedi.org/wiki/linux",
+            "error": null,
+            "includePattern": "*://*.wikipedia.org/*",
+            "excludePattern": "",
+            "redirectUrl": "$1://$2.vikiansiklopedi.org/$3",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        },
+        {
+            "description": "Imgur",
+            "exampleUrl": "https://en.wikipedia.org/wiki/izmir",
+            "exampleResult": "https://en..vikiansiklopedi.org/wiki/izmir",
+            "error": null,
+            "includePattern": "*://*wikipedia.org/*/*",
+            "excludePattern": "",
+            "redirectUrl": "$1://$2.vikiansiklopedi.org/$3/$4",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    ]
+}
