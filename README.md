@@ -9,7 +9,7 @@ file for redirector add-on
 
 - [Add-on page](http://einaregilsson.com/redirector/)
 
-##### 2) click on add-on button on browser
+##### 2) click on redirector add-on button on browser
 ##### 3) click on edit redirects
 ##### 4) click on import
 ##### 5) select vek.txt
