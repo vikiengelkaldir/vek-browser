@@ -1,8 +1,8 @@
 # vek-redirector
 file for redirector add-on/redirector eklentisi için dosya
 
-* [English](##setup)
-* [Türkçe](##yükleme)
+* [English](#setup)
+* [Türkçe](#yükleme)
 
 
 ## setup
